@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('background.jpg');
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+/* Reset default list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0 0 20px 20px;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%; /* Make the navbar span the entire width */
+    z-index: 1000; /* Adjust the z-index as needed */
+    top:0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    color: #fff; /* Text color for the links */
+    text-align: center;
+    padding: 15px 20px; /* Adjust the padding as needed */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Background color on hover */
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.top h1 {  
+    margin-left: 15px;
+    font-size: 84px;
+    color: rgba(255, 255, 255, 0.659)
+    /* Add margin to the right side of the h1 element */
+}
+
+.contact-list {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
+    list-style: none;
+    padding: 15px;
+    vertical-align: middle;
+    margin-right: 75px;
+    line-height: 4px;
+}
+.email-icon {
+    font-size: 16px;
+    margin-right: 5px; /* Add spacing between the icon and text */
+}
+.linkedin-icon
+{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px; /* Add spacing between the icon and text */   
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+}
+/* Style normal links */
+.contact-list a {
+    color: rgba(255, 255, 255, 0.4); /* Change link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+}
+/* Style links on hover */
+.contact-list a:hover {
+    color: blue; /* Change color when hovering over the link */
+    text-decoration: underline; /* Add underline on hover (optional) */
+}
+
+.about-me-section {
+    justify-content: space-around;
+    margin: 45px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.659)
+}
+.about-me-content {
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+ 
+}
+.profile-image {
+    width: 175px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 20px;
+    float: right;
+}
+
+.projects-section {
+    justify-content: space-around;
+    margin: 45px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.projects-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 200px;
+
+}
+.project-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    float: right;
+}
