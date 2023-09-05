@@ -15,7 +15,7 @@ ul {
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.75);
     border-radius: 0 0 20px 20px;
     position: fixed; 
     width: 100%; 
@@ -27,10 +27,12 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 0;
+
 }
 
 .navbar li {
     margin: 0;
+
 }
 
 .navbar a {
@@ -40,8 +42,8 @@ ul {
     padding: 15px 20px; 
     text-decoration: none;
     transition: background-color 0.5s ease; 
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.6);
+    font-size: 24px;
+    color: rgba(26, 26, 26, 0.8);
 }
 
 .navbar a:hover {
@@ -53,6 +55,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin: 45px;
+    margin-left: 10%;
     margin-bottom: 20px;
 }
 
@@ -265,3 +268,32 @@ ul {
     opacity: 1; 
   }
   
+
+
+.portfolio-item{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    
+}
+.portfolio-item p{
+    margin-left: 5%;
+    margin-right: 10%;
+    color: rgba(255, 255, 255, 0.659);
+    font-size: 15px;
+    width: 40%;
+    text-align: center;
+}
+.portfolio-item h2{
+    color: rgba(255, 255, 255, 0.659);
+    font-size: 36px;
+    margin-left: 35px;
+    width:15%
+}
+.portfolio-picture{
+    margin-left:10%;
+    height: 8%;
+    width: 8%;
+}
