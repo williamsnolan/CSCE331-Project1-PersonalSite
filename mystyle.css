@@ -217,8 +217,8 @@ ul {
 .service-item{
     display: flex;
     justify-content:space-around;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     align-items: center;
     
 }
@@ -226,7 +226,7 @@ ul {
     margin-left: 5%;
     margin-right: 10%;
     color: rgba(255, 255, 255, 0.659);
-    font-size: 15px;
+    font-size: 18px;
     width: 40%;
     text-align: center;
 }
@@ -245,6 +245,8 @@ ul {
     text-decoration: none;
     display: inline-block; 
     position: relative;
+    height: fit-content;
+    width: fit-content;
   }
   
   .image-link::after {
@@ -279,7 +281,7 @@ ul {
     margin-left: 5%;
     margin-right: 10%;
     color: rgba(255, 255, 255, 0.659);
-    font-size: 15px;
+    font-size: 18px;
     width: 40%;
     text-align: center;
 }
