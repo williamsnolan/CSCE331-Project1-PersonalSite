@@ -61,7 +61,6 @@ ul {
     margin-left: 15px;
     font-size: 84px;
     color: rgba(255, 255, 255, 0.659)
-    /* Add margin to the right side of the h1 element */
 }
 
 .contact-list {
@@ -155,4 +154,65 @@ ul {
     height: 50px;
     border-radius: 5px;
     float: right;
+}
+
+
+.resume-title{
+    text-align: center;
+    font-size: 54px;
+    color: rgba(255, 255, 255, 0.659);
+    margin-bottom: 10px;
+}
+.resume-title h1{
+    margin-top:50px;
+    margin-bottom: 10px;
+}
+.resume-title h4{
+    margin:0px;
+}
+.pdf-container{
+    margin: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+}
+.skill-section{
+    margin: 10%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: top;
+}
+.skill-section h2{
+    color: rgba(255, 255, 255, 0.659);
+    font-size: 54px;
+    display: flex;
+    margin-right:20%;
+}
+.skill-list {
+    text-align: center;
+    margin:5%;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.659);
+}
+
+.interests-section{
+    margin: 10%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+.interests-section h2{
+    color: rgba(255, 255, 255, 0.659);
+    font-size: 54px;
+    display: flex;
+    margin-right: 20%;
+}
+.interests-list {
+    text-align: center;
+    margin:5%;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.659);
 }
