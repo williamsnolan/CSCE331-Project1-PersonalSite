@@ -74,15 +74,12 @@ ul {
     margin-right: 75px;
     line-height: 4px;
 }
-.email-icon {
-    font-size: 16px;
-    margin-right: 5px; 
-}
+
 .linkedin-icon
 {
     height: 20px;
     width: 20px;
-    margin-right: 0px;  
+    margin-right: 5px;  
 }
 .contact-item{
     display: flex;
