@@ -296,3 +296,6 @@ ul {
     height: 8%;
     width: 8%;
 }
+a{
+    text-decoration: none;
+}
