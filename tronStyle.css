@@ -190,3 +190,89 @@ body {
     border-radius: 5px;
     float: right;
 }
+
+
+.qualifications-title{
+    text-align: center;
+    font-size: 48px;
+    color: aqua;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 110px;
+    background:
+    linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+    linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+    linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+    linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+    
+  background-repeat: no-repeat;
+  background-size: 75px 75px;
+}
+.pdf-container{
+    margin: 150px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+}
+.skill-section{
+    margin: 10%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: top;
+    background:
+    linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+    linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+    linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+    linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+    
+  background-repeat: no-repeat;
+  background-size: 75px 75px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+.skill-section h2{
+    color: aqua;
+    font-size: 54px;
+    display: flex;
+    margin-right:20%;
+}
+.skill-list {
+    text-align: center;
+    margin:5%;
+    font-size: 20px;
+    color: aqua;
+}
+
+.interests-section{
+    margin: 10%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    background:
+    linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+    linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+    linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+    linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+    
+  background-repeat: no-repeat;
+  background-size: 75px 75px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.interests-section h2{
+    color: aqua;
+    font-size: 54px;
+    display: flex;
+    margin-right: 20%;
+}
+.interests-list {
+    text-align: center;
+    margin:5%;
+    font-size: 20px;
+    color: aqua;
+}
