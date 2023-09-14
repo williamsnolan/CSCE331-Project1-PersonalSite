@@ -2,35 +2,35 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: black;
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 
 
-  ul {
+ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
+}
 
 .navbar {
     background-color: rgba(91, 90, 90, 0.75);
     border-radius: 0 0 20px 20px;
-    position: fixed; 
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%; 
+    position: fixed;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
     z-index: 1000;
-    top:0;
+    top: 0;
 }
 
 .navbar ul {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     padding: 0;
-
+    align-items: center;
 }
 
 .navbar li {
@@ -40,17 +40,17 @@ body {
 
 .navbar a {
     display: block;
-    color: #ffffff; 
+    color: #ffffff;
     text-align: center;
-    padding: 15px 20px; 
+    padding: 15px 20px;
     text-decoration: none;
-    transition: background-color 0.5s ease; 
+    transition: background-color 0.5s ease;
     font-size: 18px;
     color: aqua;
 }
 
 .navbar a:hover {
-    background-color: rgba(255, 255, 255, 0.4); 
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 
@@ -64,8 +64,8 @@ body {
     margin-bottom: 45px;
 }
 
-.top h1 {  
-    
+.top h1 {
+
     margin-left: 45px;
     font-size: 74px;
     padding-left: 20px;
@@ -73,23 +73,23 @@ body {
     color: aqua;
 
     background:
-      linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
-      linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
-      linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
-      linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
-      
+        linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+        linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+
     background-repeat: no-repeat;
     background-size: 75px 75px;
     text-align: center;
     margin: 0px;
 }
 
-.linkedin-icon
-{
+.linkedin-icon {
     height: 0;
     width: 0;
-    margin-right: 5px;  
+    margin-right: 5px;
 }
+
 .contact-list {
     font-size: 16px;
     color: aqua;
@@ -101,20 +101,20 @@ body {
 
 }
 
-.contact-item{
+.contact-item {
     display: flex;
     align-items: center;
 }
 
 .contact-list a {
     color: aqua;
-    text-decoration: none; 
+    text-decoration: none;
     font-size: 16px;
 }
 
 .contact-list a:hover {
-    color: blue; 
-    text-decoration: underline; 
+    color: blue;
+    text-decoration: underline;
 }
 
 
@@ -129,6 +129,7 @@ body {
     font-size: 18px;
 
 }
+
 .about-me-content {
     display: flex;
     flex-direction: row-reverse;
@@ -136,7 +137,7 @@ body {
     margin: 45px;
     margin-top: 0px;
     margin-bottom: 0px;
-    color:aqua
+    color: aqua
 }
 
 
@@ -156,35 +157,38 @@ body {
     padding: 20px;
     text-align: center;
 }
-.projects-section h1{
+
+.projects-section h1 {
     font-size: 36px;
     color: aqua;
 }
-.projects-content{
+
+.projects-content {
     display: flex;
     justify-content: space-evenly;
 }
-.project-info
-{
+
+.project-info {
     color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
     background:
-    linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
-    linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
-    
-  background-repeat: no-repeat;
-  background-size: 65px 45px;
+        linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+        linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 65px 45px;
     padding: 20px;
 
     margin: 20px;
     width: 200px;
 
 }
-.project-icon{
+
+.project-icon {
     width: 50px;
     height: 50px;
     border-radius: 5px;
@@ -192,7 +196,7 @@ body {
 }
 
 
-.qualifications-title{
+.qualifications-title {
     text-align: center;
     font-size: 48px;
     color: aqua;
@@ -201,159 +205,173 @@ body {
     margin-right: 20%;
     margin-top: 110px;
     background:
-    linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
-    linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
-    
-  background-repeat: no-repeat;
-  background-size: 75px 75px;
+        linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+        linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
 }
-.pdf-container{
+
+.pdf-container {
     margin: 150px;
     margin-top: 0px;
     margin-bottom: 10px;
-    display:flex;
+    display: flex;
     align-items: center;
 }
-.skill-section{
+
+.skill-section {
     margin: 10%;
     margin-bottom: 0px;
     margin-top: 0px;
     display: flex;
     align-items: top;
     background:
-    linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
-    linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
-    
-  background-repeat: no-repeat;
-  background-size: 75px 75px;
-  padding-left: 30px;
-  padding-right: 30px;
+        linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+        linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
-.skill-section h2{
+
+.skill-section h2 {
     color: aqua;
     font-size: 54px;
     display: flex;
-    margin-right:20%;
+    margin-right: 20%;
 }
+
 .skill-list {
     text-align: center;
-    margin:5%;
+    margin: 5%;
     font-size: 20px;
     color: aqua;
 }
 
-.interests-section{
+.interests-section {
     margin: 10%;
     margin-bottom: 0px;
     margin-top: 0px;
     display: flex;
     align-items: center;
     background:
-    linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
-    linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
-    
-  background-repeat: no-repeat;
-  background-size: 75px 75px;
-  padding-left: 30px;
-  padding-right: 30px;
+        linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+        linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.interests-section h2{
+
+.interests-section h2 {
     color: aqua;
     font-size: 54px;
     display: flex;
     margin-right: 20%;
 }
+
 .interests-list {
     text-align: center;
-    margin:5%;
+    margin: 5%;
     font-size: 20px;
     color: aqua;
 }
 
 
-.service-item{
+.service-item {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-top: 15px;
     margin-bottom: 15px;
     align-items: center;
-    
+
     background:
-    linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
-    linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
-    
-  background-repeat: no-repeat;
-  background-size: 75px 75px;
-  margin-left: 7%;
-  margin-right: 7%;
+        linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+        linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    margin-left: 7%;
+    margin-right: 7%;
 
 
 }
-.service-item p{
+
+.service-item p {
+    margin-left: 5%;
+    color: aqua;
+    font-size: 18px;
+    width: 55%;
+    text-align: center;
+}
+
+.service-item h2 {
+    color: aqua;
+    font-size: 54px;
+    margin-left: 35px;
+    width: 15%
+}
+
+.service-picture {
+    height: 10%;
+    width: 10%;
+}
+
+
+.portfolio-item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+
+    background:
+        linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
+        linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
+        linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    margin-left: 7%;
+    margin-right: 7%;
+
+
+}
+
+.portfolio-item p {
     margin-left: 5%;
     color: aqua;
     font-size: 18px;
     width: 40%;
     text-align: center;
 }
-.service-item h2{
+
+.portfolio-item h2 {
     color: aqua;
     font-size: 54px;
     margin-left: 35px;
-    width:15%
+    margin-right: 20px;
+    width: 15%
 }
-.service-picture{
+
+.portfolio-picture {
     height: 10%;
     width: 10%;
 }
 
-
-.portfolio-item{
-    display: flex;
-    justify-content:space-around;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    align-items: center;
-    
-    background:
-    linear-gradient(to right, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to left, aqua 3px, transparent 3px) 100% 100%,
-    linear-gradient(to bottom, aqua 3px, transparent 3px) 0 0,
-    linear-gradient(to top, aqua 3px, transparent 3px) 100% 100%;
-    
-  background-repeat: no-repeat;
-  background-size: 75px 75px;
-  margin-left: 7%;
-  margin-right: 7%;
-
-
-}
-.portfolio-item p{
-    margin-left: 5%;
-    color: aqua;
-    font-size: 18px;
-    width: 40%;
-    text-align: center;
-}
-.portfolio-item h2{
-    color: aqua;
-    font-size: 54px;
-    margin-left: 35px;
-    width:15%
-}
-.portfolio-picture{
-    height: 10%;
-    width: 10%;
-}
-a{
+a {
     text-decoration: none;
 }

@@ -3,25 +3,31 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <head>
-    <link rel="stylesheet" href="tronStyle.css">
+    <link id="cssLink" rel="stylesheet" href="mystyle.css">
 </head>
 
-<nav class="navbar">
-    <ul>
-        <li><a href="qualifications.html">Qualifications</a></li>
-        <li><a href="service.html">Service</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="chatGPT.html">Ai Generated Page</a></li>
-    </ul>
-</nav>
+
 
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="qualifications.html">Qualifications</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="chatGPT.html">Ai Generated Page</a></li>
+            <li>
+                <a id="changeCSSButton" onclick="changeCSS()">Change Style</a>
+                <script src="functions.js"></script>
+            </li>
+        </ul>
+    </nav>
     <div class="top">
         <h1>Nolan Williams</h1>
         <ul class="contact-list">
             <li>
                 <div class="contact-item">
-                    <img src="pictures/emailIcon.png" alt="Email Icon" class="linkedin-icon"><p>williamsnolan03@gmail.com</p>
+                    <img src="pictures/emailIcon.png" alt="Email Icon" class="linkedin-icon">
+                    <p>williamsnolan03@gmail.com</p>
                 </div>
 
             </li>
@@ -30,7 +36,18 @@
                     <img src="pictures/LinkInLogo.png" alt="LinkedIn Logo" class="linkedin-icon">
                     <a href="https://www.linkedin.com/in/NolanW">LinkedIn</a>
                 </div>
-
+            </li>
+            <li>
+                <div class="contact-item">
+                    <img src="pictures/fbLogo.png" alt="LinkedIn Logo" class="linkedin-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100085826809961">Facebook</a>
+                </div>
+            </li>
+            <li>
+                <div class="contact-item">
+                    <img src="pictures/igLogo.png" alt="LinkedIn Logo" class="linkedin-icon">
+                    <a href="https://www.instagram.com/nolan.williams2/">Instagram</a>
+                </div>
             </li>
         </ul>
 
@@ -40,10 +57,15 @@
         <div class="about-me-content">
             <img src="pictures/headshot.jpg" alt="Nolan Williams" class="profile-image">
             <p>
-                Welcome! I am a student at Texas A&M University and I am currently pursuing a
-                Bachelors of Science in Computer Science. I have been learning how to code for
-                about 4 years now. Last summer I was a Software Development Intern at Tyler Technologies
-                and I am currently searching for an internship for Summer 2024.
+                Welcome! My name is Nolan Williams and I am a Junior at Texas A&M from Plano, TX. I am currently
+                pursuing a Bachelors of Science in Computer Science. I have been working on various projects since
+                highschool and you can check out a few of my large projects in the ‘Portfolio’ section. You can read
+                more about my technical qualifications in the ‘Qualifications’ page, which includes my resume, skills,
+                and areas of interest. Outside of projects and coursework, I enjoy being involved at my university. I
+                have been involved with three main organizations, which you can learn more about in the ‘Service’ page.
+                Some of my personal hobbies include Golf, Spikeball, Guitar Hero, Poker, and working out. Thank you for
+                taking the time to check out my website! I am currently searching for Software Development Internships
+                for Summer 2024. If you think that I may be a good fit please feel free to contact me!
             </p>
         </div>
     </div>
@@ -63,7 +85,7 @@
                 <img src="pictures/cpu.png" alt="CPU Logo" class="project-icon">
                 <h3>Y86 CPU</h3>
                 <p>A fully function CPU made from scratch in Logisim.
-                    The CPU is capable of running basic commands written in the 
+                    The CPU is capable of running basic commands written in the
                     Y86 Assembly language.
                 </p>
             </div>
