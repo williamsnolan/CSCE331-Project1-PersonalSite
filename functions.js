@@ -7,8 +7,8 @@ function changeCSS() {
 
     // Toggle between CSS files
     if (currentCSS === "mystyle.css") {
-        cssLink.href = "tronstyle.css";
-        currentCSS = "tronstyle.css";
+        cssLink.href = "tronStyle.css";
+        currentCSS = "tronStyle.css";
     } else {
         cssLink.href = "mystyle.css";
         currentCSS = "mystyle.css";
